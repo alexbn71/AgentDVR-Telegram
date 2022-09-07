@@ -31,4 +31,4 @@ Actions -> Action Configuration -> Method = POST
 4) After you choose a suitable name for your bot — the bot is created. You will receive a message with a link to your bot t.me/<bot_username>, recommendations to set up a profile picture, description, a list of commands to manage your new bot and the TOKEN.
 
 
-Thats it!
+Thats it! Enjoy.
