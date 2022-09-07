@@ -1,0 +1,9 @@
+<?php
+/**
+ * @author Alessandro Blason <mrblason@gmail.com>
+ * @date 07/09/2022
+ */
+	$yourchatid = 1234567890;
+	$yourbottoken = "abcdefghilmn";
+
+?>
