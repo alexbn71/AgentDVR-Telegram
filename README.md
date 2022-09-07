@@ -30,5 +30,6 @@ Actions -> Action Configuration -> Method = POST
 3) Choose a name for your bot — your subscribers will see it in the conversation. And choose a username for your bot — the bot can be found by its username in searches. The username must be unique and end with the word “bot.”
 4) After you choose a suitable name for your bot — the bot is created. You will receive a message with a link to your bot t.me/<bot_username>, recommendations to set up a profile picture, description, a list of commands to manage your new bot and the TOKEN.
 
+Share any improvements to the script with me so that everyone can benefit!
 
 Thats it! Enjoy.
