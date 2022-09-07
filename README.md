@@ -13,9 +13,14 @@ On AgentDVR create a new camera "Action", triggered by a "Manual Alert"... for t
 ### Set these values to the Action:
 
 Actions -> Action Configuration -> If = Manual Alert
+
 Actions -> Action Configuration -> Then = Call URL
+
 Actions -> Action Configuration -> URL = http://yourserverIP/telegram_alert.php?msg={MSG}
+
 Actions -> Action Configuration -> Upload Image = 1
+
 Actions -> Action Configuration -> Method = POST
+
 
 Thats it!
