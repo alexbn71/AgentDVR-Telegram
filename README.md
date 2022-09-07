@@ -10,7 +10,7 @@ Rename config.php_sample to config.php and change the content of the file.
 
 ## AgentDVR Configuration:
 
-###Set these values to the Action
+### Set these values to the Action
 
 Actions -> Action Configuration -> If = Manual Alert
 
