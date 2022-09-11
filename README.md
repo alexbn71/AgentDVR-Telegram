@@ -44,6 +44,25 @@ Actions -> Action Configuration -> Method = POST
 
 Now you can fire "Manual Alert" and see what happen on Telegram.
 
+## NEW NEW NEW! A new way of doing the same job without the need for external resources (Apache/PHP)
+
+The Commands folder contains script that you must copy into AgentDVR Commands folder.
+If you use AgentDVR on Docker make sure to have the latest version because "curl" is not available on previous versions of this image.
+
+### Set these values to the new camera Action created
+
+Actions -> Action Configuration -> If = Manual Alert (just for testing purposes)
+
+Actions -> Action Configuration -> Then = Execute Command
+
+Actions -> Action Configuration -> File = telegram_sendphoto
+
+Actions -> Action Configuration -> Parameters = {ID} '{MSG}'
+
+Now you can fire "Manual Alert" and see what happen on Telegram.
+
+
+
 Share any improvements to the script with me so that everyone can benefit!
 
 Thats it! Enjoy.
