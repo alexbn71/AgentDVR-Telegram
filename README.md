@@ -44,7 +44,7 @@ Now you can fire "Manual Alert" and see what happen on Telegram.
 ## NEW NEW NEW! A new way of doing the same job without the needs for external resources (Apache/PHP)
 
 The Commands folder contains scripts that you must copy into AgentDVR Commands folder.
-If you use AgentDVR on Docker make sure to have the latest version because "curl" is not available on previous versions of this docker image.
+If you use AgentDVR on Docker make sure to have the latest version since "curl" is not available on previous versions of this docker image.
 
 Change the variable values in both scripts:
 
