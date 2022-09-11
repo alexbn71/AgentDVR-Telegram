@@ -49,7 +49,7 @@ Now you can fire "Manual Alert" and see what happen on Telegram.
 The Commands folder contains scripts that you must copy into AgentDVR Commands folder.
 If you use AgentDVR on Docker make sure to have the latest version because "curl" is not available on previous versions of this docker image.
 
-Change the variable values in both sripts.
+Change the variable values in both scripts:
 
 ```bash
 ID=$1
