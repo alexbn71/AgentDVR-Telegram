@@ -46,8 +46,20 @@ Now you can fire "Manual Alert" and see what happen on Telegram.
 
 ## NEW NEW NEW! A new way of doing the same job without the need for external resources (Apache/PHP)
 
-The Commands folder contains script that you must copy into AgentDVR Commands folder.
-If you use AgentDVR on Docker make sure to have the latest version because "curl" is not available on previous versions of this image.
+The Commands folder contains scripts that you must copy into AgentDVR Commands folder.
+If you use AgentDVR on Docker make sure to have the latest version because "curl" is not available on previous versions of this docker image.
+
+Change the variable values in both sripts.
+
+```bash
+ID=$1
+MSG=$2
+AGENTDVRURL=your server IP or address
+CHATID=your telegram id
+TOKEN=your bot token
+APIUSER=AgentDVR API username
+APIPWD=AgentDVR API password
+```
 
 ### Set these values to the new camera Action created
 
