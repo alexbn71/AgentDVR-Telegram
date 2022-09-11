@@ -52,8 +52,6 @@ If you use AgentDVR on Docker make sure to have the latest version because "curl
 Change the variable values in both scripts:
 
 ```bash
-ID=$1
-MSG=$2
 AGENTDVRURL=your server IP or address
 CHATID=your telegram id
 TOKEN=your bot token
