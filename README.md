@@ -73,6 +73,7 @@ Now you can fire "Manual Alert" and see what happen on Telegram.
 
 
 
+
 Share any improvements to the script with me so that everyone can benefit!
 
 Thats it! Enjoy.
