@@ -23,16 +23,13 @@ When no image is passed to the script the notification is sent to Telegram only 
 
 ### Set these values to the new camera Action created
 
+```bash
 Actions -> Action Configuration -> If = Manual Alert (just for testing purposes)
-
 Actions -> Action Configuration -> Then = Call URL
-
 Actions -> Action Configuration -> URL = http://yourserverIP/telegram_alert.php?msg={MSG}
-
 Actions -> Action Configuration -> Upload Image = 1
-
 Actions -> Action Configuration -> Method = POST
-
+```
 
 ## Telegram BOT configuration (on the web there are dozens of guides better than this):
 
@@ -61,13 +58,12 @@ APIPWD=AgentDVR API password
 
 ### Set these values to the new camera Action created
 
+```bash
 Actions -> Action Configuration -> If = Manual Alert (just for testing purposes)
-
 Actions -> Action Configuration -> Then = Execute Command
-
 Actions -> Action Configuration -> File = telegram_sendphoto
-
 Actions -> Action Configuration -> Parameters = {ID} '{MSG}'
+```
 
 Now you can fire "Manual Alert" and see what happen on Telegram.
 
