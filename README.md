@@ -49,11 +49,8 @@ If you use AgentDVR on Docker make sure to have the latest version since "curl" 
 Change the variable values in both scripts:
 
 ```bash
-AGENTDVRURL=your server IP or address
 CHATID=your telegram id
 TOKEN=your bot token
-APIUSER=AgentDVR API username
-APIPWD=AgentDVR API password
 ```
 
 ### Set these values to the new camera Action created
@@ -62,7 +59,7 @@ APIPWD=AgentDVR API password
 Actions -> Action Configuration -> If = Manual Alert (just for testing purposes)
 Actions -> Action Configuration -> Then = Execute Command
 Actions -> Action Configuration -> File = telegram_sendphoto
-Actions -> Action Configuration -> Parameters = {ID} '{MSG}'
+Actions -> Action Configuration -> Parameters = {ID} '{MSG}' {BASE64IMAGE}
 ```
 
 Now you can fire "Manual Alert" and see what happen on Telegram.
