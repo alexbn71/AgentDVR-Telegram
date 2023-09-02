@@ -5,11 +5,11 @@
 #################################################
 
 ## UPDATE THESE VARIABLES 
-AGENTDVRURL=your server IP or address
+##AGENTDVRURL=your server IP or address
 CHATID=your telegram id
 TOKEN=your bot token
-APIUSER=AgentDVR API username
-APIPWD=AgentDVR API password
+##APIUSER=AgentDVR API username
+##APIPWD=AgentDVR API password
 #################################################
 
 ID=$1
