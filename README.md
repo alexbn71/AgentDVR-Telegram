@@ -5,7 +5,8 @@ It works with the free version of AgentDVR.
 
 ## CONFIGURATION
 
-Commands folder contains scripts that you must copy into AgentDVR Commands folder.
+1. Copy  into AgentDVR Commands folder.
+Crate a grabs folder inside Commands folder
 If you use AgentDVR on Docker make sure to have the latest version since "curl" is not available on previous versions of this docker image.
 
 Change variable values in both scripts:
