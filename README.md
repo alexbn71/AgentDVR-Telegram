@@ -5,18 +5,16 @@ It works with the free version of AgentDVR.
 
 ## CONFIGURATION
 
-1. Copy  into AgentDVR Commands folder.
-Crate a grabs folder inside Commands folder
-If you use AgentDVR on Docker make sure to have the latest version since "curl" is not available on previous versions of this docker image.
-
-Change variable values in both scripts:
+1. Copy telegram_sendphoto.sh into AgentDVR Commands folder.
+2. Create "grabs" folder inside Commands folder
+3. Set variable values in the script:
 
 ```bash
 CHATID=your telegram id
 TOKEN=your bot token
 ```
 
-### Go in camera Action and set these values
+### 4. Go in camera Action and set these values
 
 ```bash
 Actions -> Action Configuration -> If = Manual Alert (just for testing purposes)
@@ -25,14 +23,14 @@ Actions -> Action Configuration -> File = telegram_sendphoto
 Actions -> Action Configuration -> Parameters = {ID} '{MSG}' {BASE64IMAGE}
 ```
 
-You can now fire "Manual Alert" and see what happen on Telegram.
+You are ready to go! Fire "Manual Alert" and see what happen on Telegram.
 
 ## Telegram BOT configuration (on the web there are dozens of guides better than this):
 
-1) Click “Start” to activate BotFather bot. In response, you receive a list of commands to manage bots.
-2) Choose or type the /newbot command and send it.
-3) Choose a name for your bot — your subscribers will see it in the conversation. And choose a username for your bot — the bot can be found by its username in searches. The username must be unique and end with the word “bot.”
-4) After you choose a suitable name for your bot — the bot is created. You will receive a message with a link to your bot t.me/<bot_username>, recommendations to set up a profile picture, description, a list of commands to manage your new bot and the TOKEN.
+1. Click “Start” to activate BotFather bot. In response, you receive a list of commands to manage bots.
+2. Choose or type the /newbot command and send it.
+3. Choose a name for your bot — your subscribers will see it in the conversation. And choose a username for your bot — the bot can be found by its username in searches. The username must be unique and end with the word “bot.”
+4. After you choose a suitable name for your bot — the bot is created. You will receive a message with a link to your bot t.me/<bot_username>, recommendations to set up a profile picture, description, a list of commands to manage your new bot and the TOKEN.
 
 Share any improvements to the script with me so that everyone can benefit!
 
